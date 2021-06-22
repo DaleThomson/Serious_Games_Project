@@ -2,11 +2,9 @@
 
 void MenuInput::print()
 {
-	std::cout << "1. Access the mock assessment.\n"
-		"2: Access revision materials.\n"
-		"0: Exit software\n\n"
+	std::fstream file("../Resources/Menu/MenuInput.txt");
 
-	"Please Enter Your Selection: ";
+	std::cout << file.rdbuf();
 }
 
 void MenuInput::handleInput(int input, AbstractQuestion** question)

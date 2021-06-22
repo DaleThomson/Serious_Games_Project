@@ -1,4 +1,4 @@
-#pragma once
+ #pragma once
 #include "AbstractQuestion.h"
 #include "Player.h"
 #include "MenuDisplay.h"
