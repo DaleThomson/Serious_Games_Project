@@ -1,0 +1,6 @@
+Hello there and welcome to [SERIOUS GAME].
+
+This software is designed to assist you in learning the fundamentals of [SUBJECT]
+Using this program you will be to revise for your [SUBJECT] and access a mock assessment.
+Please select from any of the available options from the menu below.
+
