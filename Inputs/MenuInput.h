@@ -9,6 +9,6 @@ protected:
 public:
 	MenuInput(Player* player) :player(player) {}
 	void print();
-	void handleInput(int input, AbstractQuestion** question);
+	void handleInput(char input, AbstractQuestion** question);
 };
 

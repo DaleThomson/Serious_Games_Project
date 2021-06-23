@@ -6,7 +6,7 @@ int main(int argc, char** argv)
 	Player* player = new Player();
 	AbstractQuestion* question = new Menu(player);
 	question->print();
-	int input;
+	char input;
 	std::cin >> input;
 	std::cin.get();
 	while (input != 0)

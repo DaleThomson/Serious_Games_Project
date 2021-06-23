@@ -1,4 +1,4 @@
- #pragma once
+#pragma once
 #include "AbstractQuestion.h"
 #include "Player.h"
 #include "MenuDisplay.h"
@@ -16,5 +16,5 @@ public:
 	virtual ~Menu() {}
 
 	void print();
-	void handleInput(int input, AbstractQuestion** question);
+	void handleInput(char input, AbstractQuestion** question);
 };

@@ -7,12 +7,12 @@ void MenuInput::print()
 	std::cout << file.rdbuf();
 }
 
-void MenuInput::handleInput(int input, AbstractQuestion** question)
+void MenuInput::handleInput(char input, AbstractQuestion** question)
 {
 	AbstractQuestion* q = *question;
 	switch (input)
 	{
-	case 1:
+	case ('1'):
 		system("CLS");
 		*question = 0;
 		delete q;
@@ -27,7 +27,6 @@ void MenuInput::handleInput(int input, AbstractQuestion** question)
 		std::cout << "Please Select A Valid Option...\n\n";
 		system("PAUSE");
 		system("CLS");
-		print();
 		break;
 	}
 }
