@@ -1,8 +1,9 @@
 #include "MenuInput.h"
+#include "Revision.h"
 
 void MenuInput::print()
 {
-	std::fstream file("../Resources/Menu/MenuInput.txt");
+	std::fstream file("../Resources/Menu/MenuInput1.txt");
 
 	std::cout << file.rdbuf();
 }
@@ -14,14 +15,15 @@ void MenuInput::handleInput(char input, AbstractQuestion** question)
 	{
 	case ('1'):
 		system("CLS");
-		*question = 0;
 		delete q;
 		break;
-	case 2:
+	case ('2'):
 		system("CLS");
-		*question = 0;
+		*question = new Revision(player, 1);
 		delete q;
 		break;
+	case ('0'):
+		exit(0);
 	default:
 		system("CLS");
 		std::cout << "Please Select A Valid Option...\n\n";
