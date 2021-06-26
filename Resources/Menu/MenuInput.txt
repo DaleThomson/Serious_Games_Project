@@ -1,5 +1,5 @@
 1. Access the mock assessment.
-2: Access revision materials.
+*2: Access revision materials.
 0: Exit software
 
 Please Enter Your Selection: 

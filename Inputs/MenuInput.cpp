@@ -4,8 +4,17 @@
 void MenuInput::print()
 {
 	std::fstream file("../Resources/Menu/MenuInput.txt");
+	while (file >> std::noskipws >> check)
+	{
+		if (check == '*')
+		{
 
-	std::cout << file.rdbuf();
+		}
+		else
+		{
+			std::cout << check;
+		}
+	}
 }
 
 void MenuInput::handleInput(char input, AbstractQuestion** question)
