@@ -1,27 +1,22 @@
-#include "MenuInput.h"
-#include "Revision.h"
-#include "Quiz.h"
+#include "QuizInput.h"
 
-
-void MenuInput::print()
+void QuizInput::print()
 {
-	std::fstream file("../Resources/Menu/MenuInput.txt");
-	
+	std::fstream file("../Resources/Quiz/Question" + std::to_string(Q_num) + ".txt");
+
 	std::cout << file.rdbuf();
 }
-void MenuInput::handleInput(char input, AbstractQuestion** question)
+void QuizInput::handleInput(char input, AbstractQuestion** question)
 {
 	AbstractQuestion* q = *question;
 	switch (input)
 	{
 	case ('1'):
 		system("CLS");
-		*question = new Quiz(player, 1);
 		delete q;
 		break;
 	case ('2'):
 		system("CLS");
-		*question = new Revision(player, 1);
 		delete q;
 		break;
 	case ('0'):
