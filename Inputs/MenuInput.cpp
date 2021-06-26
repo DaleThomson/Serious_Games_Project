@@ -19,6 +19,7 @@ void MenuInput::print()
 
 void MenuInput::handleInput(char input, AbstractQuestion** question)
 {
+	std::fstream file("../Resources/Menu/MenuInput.txt");
 	AbstractQuestion* q = *question;
 	switch (input)
 	{
@@ -28,6 +29,20 @@ void MenuInput::handleInput(char input, AbstractQuestion** question)
 		break;
 	case ('2'):
 		system("CLS");
+		while (file >> std::noskipws >> check)
+		{
+			if (check == '*')
+			{
+				if (file.peek() == '1')
+				{
+					player->incrementScore();
+					std::cout << "Congratulations\n\n";
+					std::cout << player->getScore();
+					system("PAUSE");
+					system("CLS");
+				}
+			}
+		}
 		*question = new Revision(player, 1);
 		delete q;
 		break;

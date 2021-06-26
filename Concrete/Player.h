@@ -13,7 +13,7 @@ public:
 	}
 
 	int getScore() { return score; }
-	int incrementScore() { score++; }
+	int incrementScore() { score++; return score; }
 	int reset() { score = 0; }
 
 };
