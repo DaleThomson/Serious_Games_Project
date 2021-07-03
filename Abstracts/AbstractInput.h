@@ -2,6 +2,8 @@
 #include <string>
 #include <iostream>
 #include <fstream>
+#include <ctime>
+#include <cstdio>
 class AbstractQuestion;
 
 class AbstractInput {
