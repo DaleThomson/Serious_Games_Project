@@ -11,30 +11,36 @@ void QuizInput::print()
 }
 
 
-void QuizInput::populate()
+void QuizInput::questionHandler()
 {
 	std::fstream populateFile("../Resources/Quiz/QuizPopulate.txt");
 	std::ofstream removalFile("../Resources/Quiz/QuizPopulateInSession.txt");
 
 	srand((time(0)));
-	int random = rand() % 50;
 	int lineNum = 0;
 	std::string line;
 	std::string deleteLine;
+	std::vector<std::string> inSessionLines;
+
 	int keepLine = 0;
 	
 
 	while (getline(populateFile, line))
 	{
+		lineNum++;
+		inSessionLines.push_back(line);
+	}
+	int random = rand() % lineNum;
+	std::cout << inSessionLines[random];
+	lineNum = 0;
+	//populateFile.clear();
+	//populateFile.seekg(0);
+	while (getline(populateFile, line))
+	{
 		++lineNum;
-		if (lineNum == random)
+		if (lineNum == random + 1)
 		{
 			deleteLine = line;
-			system("CLS");
-			std::cout << line << "\n\n";
-			keepLine = std::stoi(line);
-			system("PAUSE");
-			system("CLS");
 		}
 		if (line != deleteLine)
 		{
@@ -49,10 +55,10 @@ void QuizInput::populate()
 
 void QuizInput::handleInput(char input, AbstractQuestion** question)
 {
-	std::string line;
-	srand((time(0)));
-	int random = rand() % 50;
-	int lineNum = 0;
+	//std::string line;
+	//srand((time(0)));
+	//int random = rand() % 50;
+	//int lineNum = 0;
 	AbstractQuestion* q = *question;
 	switch (input)
 	{
@@ -62,7 +68,7 @@ void QuizInput::handleInput(char input, AbstractQuestion** question)
 		break;
 	case ('2'):
 		system("CLS");
-		populate();
+		questionHandler();
 		//delete q;
 		break;
 	case ('0'):

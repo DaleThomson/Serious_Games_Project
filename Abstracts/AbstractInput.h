@@ -4,6 +4,7 @@
 #include <fstream>
 #include <ctime>
 #include <cstdio>
+#include <vector>
 class AbstractQuestion;
 
 class AbstractInput {
