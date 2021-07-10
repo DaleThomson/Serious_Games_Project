@@ -5,6 +5,7 @@ class QuizInput : public AbstractInput
 {
 private:
 	int Q_num;
+	bool finish;
 protected:
 	Player* player;
 public:

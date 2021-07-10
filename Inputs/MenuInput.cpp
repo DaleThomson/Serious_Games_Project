@@ -16,7 +16,7 @@ void MenuInput::handleInput(char input, AbstractQuestion** question)
 	{
 	case ('1'):
 		system("CLS");
-		*question = new Quiz(player, 1);
+		*question = new Quiz(player, 0);
 		delete q;
 		break;
 	case ('2'):
