@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+*1. Turn the steering wheel towards the kerb and put on the handbrake.
+2. Park as close as possible to the car in front.
+3. Park with one wheel up the kerb.
+4. Park with two wheels up the kerb.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

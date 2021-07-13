@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+*1. Pedestrians.
+2. Vehicles parked on either side.
+3. Congested traffic.
+4. If the side road has a one-way system.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

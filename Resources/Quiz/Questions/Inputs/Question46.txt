@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Yes, since the driver has the potential to harm you, your passengers, and other drivers.
+2. No, unless you're in a safe position to prevent the driver properly.
+*3. No, not under any circumstances.
+4. Yes, if this driver is making you feel uncomfortable.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

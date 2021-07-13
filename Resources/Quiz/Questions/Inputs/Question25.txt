@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+*1. Four seconds.
+2. Two seconds.
+3. Three seconds.
+4. One seconds.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

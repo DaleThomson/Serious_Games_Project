@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+1. Where the road narrows.
+2. On approach to a roundabout.
+3. Immediately before making a left turn.
+*4. All of the above.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

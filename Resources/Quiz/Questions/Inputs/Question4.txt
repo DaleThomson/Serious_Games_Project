@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+1. Try to move before the cyclist does.
+*2. Allow the cyclist time and room to move.
+3. Drive as near to the cyclist as possible to ensure you get through.
+4. Beep your horn and drive through before the cyclist can.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

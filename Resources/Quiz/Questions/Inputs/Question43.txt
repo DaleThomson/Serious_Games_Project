@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Perform a three-point turn while in the main road.
+2. Perform a U-turn while in the main road.
+3. Pull into a side road, then reverse back into the main road in the right direction.
+*4. Pull into a side road, then turn around.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

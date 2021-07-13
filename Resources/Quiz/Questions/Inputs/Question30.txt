@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. In an area with many buildings, as well as stationary and moving vehicles.
+2. Into side roads.
+*3. Further than necessary.
+4. For longer than the length of one car.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

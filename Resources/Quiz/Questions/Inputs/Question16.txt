@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+*1. 70 MPH.
+2. 80 MPH.
+3. 50 MPH.
+4. 60 MPH.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

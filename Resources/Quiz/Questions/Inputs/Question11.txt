@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+1. Come to a halt even when there is no traffic.
+2. Give way to oncoming traffic ahead of you.
+3. Give way to oncoming traffic on your left.
+*4. Give way to oncoming traffic on your right.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

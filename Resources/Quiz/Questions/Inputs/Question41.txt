@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Brake sharply so the driver sees your brake lights.
+2. Wave your hand out the window.
+*3. Keep travelling at your chosen speed; the driver will overtake after judging it safe to do so.
+4. Accelerate to leave a gap between you and the vehicle behind.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+*1. Switch on your hazard lights.
+2. Flash your headlights.
+3. Beep your horn.
+4. Wave your arm out the window.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+*1. Three years.
+2. A year.
+3. Four years.
+4. Two years.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+1. Drive closest to the car in front of your.
+2. Accelerate to get down the hill as quickly as possible.
+3. Select a high gear and apply the brakes firmly.
+*4. Select a low gear and apply the brakes carefully.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

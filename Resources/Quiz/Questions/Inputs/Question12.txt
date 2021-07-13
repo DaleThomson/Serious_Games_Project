@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+1. Turn left at the next roundabout.
+2. Turn left at the next side road.
+*3. Pull over to the left.
+4. Brake immediately.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

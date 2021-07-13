@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Carry on driving.
+2. Call your insurance company.
+*3. Stop at the scene of the accident.
+4. Call someone you know to ask for advice.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

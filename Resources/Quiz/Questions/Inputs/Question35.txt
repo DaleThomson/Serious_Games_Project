@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+*1. Get out of the car and check.
+2. Check only your rearview mirror.
+3. Assume it is and go anyway.
+4. Check only your side mirrors.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

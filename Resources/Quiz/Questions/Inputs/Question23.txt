@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. How long the driver has been driving.
+*2. The driver's name, address, number and insurance details.
+3. The driver's history of accidents.
+4. The driver's occupation.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

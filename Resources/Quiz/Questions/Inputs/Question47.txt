@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. A bridge.
+2. A fire station.
+3. An airfield.
+*4. A level crossing.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

@@ -3,6 +3,7 @@
 #include "Quiz.h"
 void QuizInput::print()
 {
+	// All Questions and Answers Were Sourced From: https://toptests.co.uk/mock-theory-test/
 	std::fstream file("../Resources/Quiz/Questions/Inputs/Question" + std::to_string(Q_num) + ".txt");
 	while (file >> std::noskipws >> check)
 	{
@@ -146,7 +147,16 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			system("CLS");
 			std::cout << "You have finished the assessment.\n\n"
 				"Your score is: " << player->getScore();
-			std::cout << std::endl << std::endl;
+			std::cout << "/50\n\n";
+			if (player->getScore() < 43)
+			{
+				std::cout << "Unfortunately you have failed the assessment. We recommend "
+					<< "that you utilize the revision section of the program.\n\n";
+			}
+			if (player->getScore() >= 43)
+			{
+				std::cout << "Congratulations you have passed the test!\n\n";
+			}
 			system("PAUSE");
 			player->reset();
 			system("CLS");
@@ -193,7 +203,16 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			system("CLS");
 			std::cout << "You have finished the assessment.\n\n"
 				"Your score is: " << player->getScore();
-			std::cout << std::endl << std::endl;
+			std::cout << "/50\n\n";
+			if (player->getScore() < 43)
+			{
+				std::cout << "Unfortunately you have failed the assessment. We recommend "
+					<< "that you utilize the revision section of the program.\n\n";
+			}
+			if (player->getScore() >= 43)
+			{
+				std::cout << "Congratulations you have passed the test!\n\n";
+			}
 			system("PAUSE");
 			player->reset();
 			system("CLS");
@@ -240,7 +259,16 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			system("CLS");
 			std::cout << "You have finished the assessment.\n\n"
 				"Your score is: " << player->getScore();
-			std::cout << std::endl << std::endl;
+			std::cout << "/50\n\n";
+			if (player->getScore() < 43)
+			{
+				std::cout << "Unfortunately you have failed the assessment. We recommend "
+					<< "that you utilize the revision section of the program.\n\n";
+			}
+			if (player->getScore() >= 43)
+			{
+				std::cout << "Congratulations you have passed the test!\n\n";
+			}
 			system("PAUSE");
 			player->reset();
 			system("CLS");
@@ -287,7 +315,16 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			system("CLS");
 			std::cout << "You have finished the assessment.\n\n"
 				"Your score is: " << player->getScore();
-			std::cout << std::endl << std::endl;
+			std::cout << "/50\n\n";
+			if (player->getScore() < 43)
+			{
+				std::cout << "Unfortunately you have failed the assessment. We recommend "
+					<< "that you utilize the revision section of the program.\n\n";
+			}
+			if (player->getScore() >= 43)
+			{
+				std::cout << "Congratulations you have passed the test!\n\n";
+			}
 			system("PAUSE");
 			player->reset();
 			system("CLS");

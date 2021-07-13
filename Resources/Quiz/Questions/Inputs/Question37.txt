@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+1. Whoever was there last.
+2. The pedestrain.
+*3. You.
+4. No one.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

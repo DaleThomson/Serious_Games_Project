@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Ensure that your hazard lights have been activated.
+2. Ensure that your rear fog lights are turned on.
+*3. Ensure that your dipped headlights are turned on.
+4. Ensure that your front fog lights are turned on.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

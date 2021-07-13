@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+*1. Drive past slowly and give them plenty of room.
+2. Sound your horn to alert them.
+3. Flash your headlights when passing.
+4. Drive faster to get past quickly.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

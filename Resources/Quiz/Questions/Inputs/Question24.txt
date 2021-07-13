@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Stop the vehicle and dry your brakes.
+*2. Test the function of your brakes at the earliest safe opportunity.
+3. Check your exhaust.
+4. Stop the vehicle and check your tyres.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

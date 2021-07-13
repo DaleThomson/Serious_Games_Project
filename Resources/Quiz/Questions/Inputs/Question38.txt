@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+1. Perform a U-turn at the next gap in the central reservation.
+*2. Carry on until you reach the next junction at which you can exit.
+3. Reverse on the hard shoulder back to the exit.
+4. Reverse in the left-hand lane if no cars are coming.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

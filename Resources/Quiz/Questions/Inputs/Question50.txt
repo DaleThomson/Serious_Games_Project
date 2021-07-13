@@ -1,7 +1,10 @@
 
 
-*1.
-2.
-3.
-4.
-0.
+1. Stay close to the motorcyclist while overtaking.
+2. Pass with speed to ensure that you complete the overtake quickly.
+*3. Overtake the motorcyclist as wide as possible.
+4. Pass as soon as you can.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

@@ -1,7 +1,10 @@
 
 
-1.
-*2.
-3.
-4.
-0.
+*1. Competitive.
+2. Cautious.
+3. Defensive.
+4. Responsible.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

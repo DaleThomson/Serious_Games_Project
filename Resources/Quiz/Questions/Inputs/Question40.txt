@@ -1,7 +1,10 @@
 
 
-1.
-2.
-3.
-*4.
-0.
+1. Overtake it to avoid a collision.
+*2. Slow down and let it turn.
+3. Carry on and keep to the right.
+4. Accelerate and sound your horn.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 

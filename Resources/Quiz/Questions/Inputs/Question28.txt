@@ -1,7 +1,10 @@
 
 
-1.
-2.
-*3.
-4.
-0.
+*1. Once you have stopped in a legally-permitted place.
+2. If you are confident that your ability to drive will not be compromised by the distraction.
+3. While travelling on rural roads which don't have much traffic.
+4. While on dual carriages motorways.
+5. Return to Menu.
+0. Exit the Software.
+
+Your Answer: 
