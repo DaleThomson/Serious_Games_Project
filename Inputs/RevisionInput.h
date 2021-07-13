@@ -11,6 +11,6 @@ protected:
 public:
 	RevisionInput(Player* player, int page) :player(player), page(page) {}
 	void print();
-	void handleInput(char input, AbstractQuestion** question);
+	void handleInput(int input, AbstractQuestion** question);
 };
 

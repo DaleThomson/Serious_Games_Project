@@ -6,7 +6,7 @@ void Quiz::print()
 	input->print();
 }
 
-void Quiz::handleInput(char Input, AbstractQuestion** question)
+void Quiz::handleInput(int Input, AbstractQuestion** question)
 {
 	input->handleInput(Input, question);
 }

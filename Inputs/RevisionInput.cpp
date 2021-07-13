@@ -10,7 +10,7 @@ void RevisionInput::print()
 	file.close();
 }
 
-void RevisionInput::handleInput(char input, AbstractQuestion** question)
+void RevisionInput::handleInput(int input, AbstractQuestion** question)
 {
 	AbstractQuestion* q = *question;
 	switch (input)
@@ -39,6 +39,7 @@ void RevisionInput::handleInput(char input, AbstractQuestion** question)
 	default:
 		system("CLS");
 		std::cout << "Please Select A Valid Option...\n\n";
+		std::cin.clear();
 		system("PAUSE");
 		system("CLS");
 		break;

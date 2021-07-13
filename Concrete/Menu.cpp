@@ -6,7 +6,7 @@ void Menu::print()
 	input->print();
 }
 
-void Menu::handleInput(char Input, AbstractQuestion** question)
+void Menu::handleInput(int Input, AbstractQuestion** question)
 {
 	input->handleInput(Input, question);
 }

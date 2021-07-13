@@ -6,7 +6,7 @@ void Revision::print()
 	input->print();
 }
 
-void Revision::handleInput(char Input, AbstractQuestion** question)
+void Revision::handleInput(int Input, AbstractQuestion** question)
 {
 	input->handleInput(Input, question);
 }

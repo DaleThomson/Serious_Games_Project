@@ -16,5 +16,5 @@ public:
 	virtual ~Menu() {}
 
 	void print();
-	void handleInput(char input, AbstractQuestion** question);
+	void handleInput(int input, AbstractQuestion** question);
 };

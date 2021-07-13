@@ -6,15 +6,24 @@ int main(int argc, char** argv)
 	Player* player = new Player();
 	AbstractQuestion* question = new Menu(player);
 	question->print();
-	char input;
-	std::cin >> input;
-	std::cin.get();
-	while (input != 0)
+	int input;
+	while (true)
 	{
-		question->handleInput(input, &question);
+		if (std::cin >> input)
+		{
+			while (input != 0)
+			{
+				question->handleInput(input, &question);
+				question->print();
+				std::cin >> input;
+				std::cin.get();
+			}
+		}
+		system("CLS");
 		question->print();
-		std::cin >> input;
-		std::cin.get();
+		std::cout << "\n\nPlease Enter One Of The Valid Options Listed Above: ";
+		std::cin.clear();
+		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	}
 	system("CLS");
 	std::cout << "Thank you for using [SOFTWARE PACKAGE]\n\n";
