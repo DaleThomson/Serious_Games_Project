@@ -1,7 +1,7 @@
 
 
-1.
-2.
-3.
-4.
-0.
+1-4. Proceed to Quiz.
+5. Return to Menu.
+0. Exit the Software.
+
+Please Enter Your Selection: 

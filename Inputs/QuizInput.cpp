@@ -336,7 +336,13 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
-	case ('0'):
+	case 5:
+		system("CLS");
+		player->reset();
+		*question = new Menu(player);
+		delete q;
+		break;
+	case 0:
 		system("CLS");
 		std::cout << "Thank you for using our software.\n\n";
 		system("PAUSE");

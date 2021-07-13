@@ -1,9 +1,9 @@
 
 
 1. 30 MPH
-*2. 60MPH
-3. 70MPH
-4. 40MPH
+*2. 60 MPH
+3. 70 MPH
+4. 40 MPH
 5. Return to Menu
 0. Exit the Software.
 

@@ -1,2 +1,4 @@
-Welcome to the Assessment
-
+Welcome to the mock driving theory test, here you will be asked 50 questions. A grade of 86% or 43/50 is required
+to pass the test. At any point during the test you may exit either to the menu, or the software entirely.
+There is no punishment for failing the test, if you feel you are not ready for the test then you can return to
+the main menu and access the revision section and read up on the highway code.
