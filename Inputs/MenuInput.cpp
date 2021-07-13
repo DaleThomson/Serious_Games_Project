@@ -11,18 +11,12 @@ void MenuInput::print()
 }
 void MenuInput::handleInput(int input, AbstractQuestion** question)
 {
-	//while (!(std::cin >> input))
-	//{
-	//	std::cout << "\n\nPlease Enter One Of The Valid Options Listed Above: ";
-	//	std::cin.clear();
-	//	std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-	//}
 	AbstractQuestion* q = *question;
 	switch (input)
 	{
 	case 1:
 		system("CLS");
-		*question = new Quiz(player, 0);
+		*question = new Quiz(player, 0, 0);
 		delete q;
 		break;
 	case 2:

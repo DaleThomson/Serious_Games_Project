@@ -154,7 +154,8 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		*question = new Quiz(player, Q_num);
+		Q_NumDisplay++;
+		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
 	case 2:
@@ -200,7 +201,8 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		*question = new Quiz(player, Q_num);
+		Q_NumDisplay++;
+		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
 	case 3:
@@ -246,7 +248,8 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		*question = new Quiz(player, Q_num);
+		Q_NumDisplay++;
+		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
 	case 4:
@@ -292,7 +295,8 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		*question = new Quiz(player, Q_num);
+		Q_NumDisplay++;
+		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
 	case ('0'):
