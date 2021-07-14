@@ -5,7 +5,7 @@ class RevisionInput : public AbstractInput
 {
 private:
 	int page;
-	int pageMax = 3;
+	int pageMax = 90;
 protected:
 	Player* player;
 public:
