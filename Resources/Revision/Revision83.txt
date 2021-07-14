@@ -1,0 +1,22 @@
+Rule 186:
+
+Signals and position. When taking the first exit, unless signs or markings indicate otherwise
+
+    signal left and approach in the left-hand lane
+    keep to the left on the roundabout and continue signalling left to leave.
+
+When taking an exit to the right or going full circle, unless signs or markings indicate otherwise
+
+    signal right and approach in the right-hand lane
+    keep to the right on the roundabout until you need to change lanes to exit the roundabout
+    signal left after you have passed the exit before the one you want.
+
+When taking any intermediate exit, unless signs or markings indicate otherwise
+
+    select the appropriate lane on approach to and on the roundabout
+    you should not normally need to signal on approach
+    stay in this lane until you need to alter course to exit the roundabout
+    signal left after you have passed the exit before the one you want.
+
+When there are more than three lanes at the entrance to a roundabout, use the most appropriate lane on approach and
+through it.
