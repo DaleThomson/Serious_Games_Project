@@ -139,6 +139,7 @@ void QuizInput::answerHandler(int input)
 		correct = false;
 	}
 	questionHandler();
+	Q_NumDisplay++;
 	if (finish)
 	{
 		system("CLS");
@@ -163,12 +164,6 @@ void QuizInput::answerHandler(int input)
 void QuizInput::handleInput(int input, AbstractQuestion** question)
 {
 	AbstractQuestion* q = *question;
-
-	if (finish)
-	{
-		*question = new Menu(player);
-		delete q;
-	}
 	switch (input)
 	{
 	case 1:
@@ -180,7 +175,6 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		Q_NumDisplay++;
 		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
@@ -193,7 +187,6 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		Q_NumDisplay++;
 		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
@@ -206,7 +199,6 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		Q_NumDisplay++;
 		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
@@ -219,7 +211,6 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
-		Q_NumDisplay++;
 		*question = new Quiz(player, Q_num, Q_NumDisplay);
 		delete q;
 		break;
