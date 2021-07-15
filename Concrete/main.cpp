@@ -11,7 +11,13 @@ int main(int argc, char** argv)
 	{
 		if (std::cin >> input)
 		{
-			break;
+			while (input != 0)
+			{
+				question->handleInput(input, &question);
+				question->print();
+				std::cin >> input;
+				std::cin.get();
+			}
 		}
 		system("CLS");
 		question->print();
@@ -19,15 +25,5 @@ int main(int argc, char** argv)
 		std::cin.clear();
 		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
 	}
-	while (input != 0)
-	{
-		question->handleInput(input, &question);
-		question->print();
-		std::cin >> input;
-		std::cin.get();
-	}
-	system("CLS");
-	std::cout << "Thank you for using [SOFTWARE PACKAGE]\n\n";
-	system("PAUSE");
 	return 0;
 }

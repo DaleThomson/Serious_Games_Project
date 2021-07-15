@@ -1,13 +1,13 @@
 Rule 171:
 
-You MUST stop behind the line at a junction with a ‘Stop’ sign and a solid white line across the road. Wait for a
+You MUST stop behind the line at a junction with a 'Stop' sign and a solid white line across the road. Wait for a
 safe gap in the traffic before you move off.
 Laws RTA 1988 sect 36 & TSRGD regs 10 & 16
 
 Rule 172:
 
-The approach to a junction may have a ‘Give Way’ sign or a triangle marked on the road. You MUST give way to traffic
-on the main road when emerging from a junction with broken white lines across the road.
+The approach to a junction may have a 'Give Way' sign or a triangle marked on the road. You MUST give way to
+traffic on the main road when emerging from a junction with broken white lines across the road.
 Laws RTA 1988 sect 36 & TSRGD regs 10(1),16(1) & 25
 
 Rule 173:
@@ -15,7 +15,7 @@ Rule 173:
 Dual carriageways. When crossing or turning right, first assess whether the central reservation is deep enough to
 protect the full length of your vehicle.
 
-   -If it is, then you should treat each half of the carriageway as a separate road. Wait in the central reservation
-    until there is a safe gap in the traffic on the second half of the road.
-   -If the central reservation is too shallow for the length of your vehicle, wait until you can cross both
-    carriageways in one go.
+   - If it is, then you should treat each half of the carriageway as a separate road. Wait in the central reservation
+     until there is a safe gap in the traffic on the second half of the road.
+   - If the central reservation is too shallow for the length of your vehicle, wait until you can cross both
+     carriageways in one go.

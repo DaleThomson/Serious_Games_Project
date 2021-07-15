@@ -16,5 +16,5 @@ with a separate signal for each lane.
 Rule 257:
 
 Amber flashing lights. These warn of a hazard ahead. The signal may show a temporary maximum speed limit, lanes that
-are closed or a message such as ‘Fog’. Adjust your speed and look out for the danger until you pass a signal which
-is not flashing or one that gives the ‘All clear’ sign and you are sure it is safe to increase your speed.
+are closed or a message such as 'Fog'. Adjust your speed and look out for the danger until you pass a signal which 
+is not flashing or one that gives the 'All clear' sign and you are sure it is safe to increase your speed.

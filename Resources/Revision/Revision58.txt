@@ -1,11 +1,11 @@
 Rule 135:
 
 Where a single carriageway has three lanes and the road markings or signs do not give priority to traffic in either
-direction
+direction:
 
-   -use the middle lane only for overtaking or turning right. Remember, you have no more right to use the middle
-    lane than a driver coming from the opposite direction
-   -do not use the right-hand lane.
+   - use the middle lane only for overtaking or turning right. Remember, you have no more right to use the middle
+     lane than a driver coming from the opposite direction
+   - do not use the right-hand lane.
 
 Rule 136:
 

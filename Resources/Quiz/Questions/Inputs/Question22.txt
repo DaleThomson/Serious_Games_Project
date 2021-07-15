@@ -5,6 +5,6 @@
 3. Give the person a wave that signals that he or she should cross as quickly as possible.
 4. Flash your headlights so the person is aware that you are waiting.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

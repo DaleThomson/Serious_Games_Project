@@ -1,17 +1,16 @@
 Rule 293:
 
 Controlled Crossings. Most crossings have traffic light signals with a steady amber light, twin flashing red stop
-lights (download ‘Light signals controlling traffic’ and ‘Traffic signs’) and an audible alarm for pedestrians.
-They may have full, half or no barriers.
+lights and an audible alarm for pedestrians. They may have full, half or no barriers.
 
-   -You MUST always obey the flashing red stop lights.
-   -You MUST stop behind the white line across the road.
-   -Keep going if you have already crossed the white line when the amber light comes on.
-   -Do not reverse onto or over a controlled crossing.
-   -You MUST wait if a train goes by and the red lights continue to flash. This means another train will be passing
-    soon.
-   -Only cross when the lights go off and barriers open.
-   -Never zig-zag around half-barriers, they lower automatically because a train is approaching.
-   -At crossings where there are no barriers, a train is approaching when the lights show.
+   - You MUST always obey the flashing red stop lights.
+   - You MUST stop behind the white line across the road.
+   - Keep going if you have already crossed the white line when the amber light comes on.
+   - Do not reverse onto or over a controlled crossing.
+   - You MUST wait if a train goes by and the red lights continue to flash. This means another train will be passing
+     soon.
+   - Only cross when the lights go off and barriers open.
+   - Never zig-zag around half-barriers, they lower automatically because a train is approaching.
+   - At crossings where there are no barriers, a train is approaching when the lights show.
 
 Laws RTA 1988 sect 36 & TSRGD regs 10 & 40

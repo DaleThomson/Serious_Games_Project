@@ -1,13 +1,13 @@
 Rule 148:
 
-Safe driving and riding needs concentration. Avoid distractions when driving or riding such as
+Safe driving and riding needs concentration. Avoid distractions when driving or riding such as:
 
-    loud music (this may mask other sounds)
-    trying to read maps
-    inserting a cassette or CD or tuning a radio
-    arguing with your passengers or other road users
-    eating and drinking
-    smoking
+   - loud music (this may mask other sounds)
+   - trying to read maps
+   - inserting a cassette or CD or tuning a radio
+   - arguing with your passengers or other road users
+   - eating and drinking
+   - smoking
 
 
 You MUST NOT smoke in public transport vehicles or in vehicles used for work purposes in certain prescribed
@@ -15,4 +15,4 @@ circumstances. Separate regulations apply to England, Wales and Scotland. In Eng
 smoke or allow anyone to smoke in an enclosed private vehicle carrying someone under 18, including motor caravans.
 In Scotland it is an offence for anyone aged 18 or over to smoke in a private motor vehicle (unless it is parked
 and being used as living accommodation) when there is someone under 18 in the vehicle and the vehicle is in a
-public place.​
+public place.

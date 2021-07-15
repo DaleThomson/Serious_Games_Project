@@ -5,6 +5,6 @@
 3. Pull into a side road, then reverse back into the main road in the right direction.
 *4. Pull into a side road, then turn around.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

@@ -1,11 +1,11 @@
 Rule 113:
 
-You MUST
+You MUST:
 
-   -ensure all sidelights and rear registration plate lights are lit between sunset and sunrise
-   -use headlights at night, except on a road which has lit street lighting. These roads are generally restricted
-    to a speed limit of 30 mph (48 km/h) unless otherwise specified
-   -use headlights when visibility is seriously reduced (see Rule 226).
+   - ensure all sidelights and rear registration plate lights are lit between sunset and sunrise
+   - use headlights at night, except on a road which has lit street lighting. These roads are generally restricted
+     to a speed limit of 30 mph (48 km/h) unless otherwise specified
+   - use headlights when visibility is seriously reduced (see Rule 226).
 
 Night (the hours of darkness) is defined as the period between half an hour after sunset and half an hour before
 sunrise).

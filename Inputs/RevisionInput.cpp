@@ -30,10 +30,32 @@ void RevisionInput::handleInput(int input, AbstractQuestion** question)
 		*question = new Revision(player, page);
 		delete q;
 		break;
-	case ('2'):
+	case 2:
 		system("CLS");
-		*question = 0;
+		page--;
+		if (page < 0)
+		{
+			std::cout << "There is no page before this. Returning you to the main menu\n\n";
+			system("PAUSE");
+			system("CLS");
+			*question = new Menu(player);
+			delete q;
+			break;
+		}
+		system("CLS");
+		*question = new Revision(player, page);
 		delete q;
+		break;
+	case 3:
+		system("CLS");
+		*question = new Menu(player);
+		delete q;
+		break;
+	case 9:
+		system("CLS");
+		std::cout << "Thank you for using our software.\n\n";
+		system("PAUSE");
+		exit(0);
 		break;
 	default:
 		system("CLS");

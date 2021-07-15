@@ -2,6 +2,6 @@
 
 1-4. Proceed to Quiz.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Please Enter Your Selection: 

@@ -21,10 +21,10 @@ void MenuInput::handleInput(int input, AbstractQuestion** question)
 		break;
 	case 2:
 		system("CLS");
-		*question = new Revision(player, 1);
+		*question = new Revision(player, 0);
 		delete q;
 		break;
-	case 0:
+	case 9:
 		system("CLS");
 		std::cout << "Thank you for using our software.\n\n";
 		system("PAUSE");

@@ -5,6 +5,6 @@
 3. Drive as near to the cyclist as possible to ensure you get through.
 4. Beep your horn and drive through before the cyclist can.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

@@ -6,17 +6,17 @@ Laws RTA 1988, sect 22 & CUR reg 103
 
 Rule 243:
 
-DO NOT stop or park
+DO NOT stop or park:
 
-   -near a school entrance
-   -anywhere you would prevent access for Emergency Services
-   -at or near a bus or tram stop or taxi rank
-   -on the approach to a level crossing/tramway crossing
-   -opposite or within 10 metres (32 feet) of a junction, except in an authorised parking space
-   -near the brow of a hill or hump bridge
-   -opposite a traffic island or (if this would cause an obstruction) another parked vehicle
-   -where you would force other traffic to enter a tram lane
-   -where the kerb has been lowered to help wheelchair users and powered mobility vehicles
-   -in front of an entrance to a property
-   -on a bend
-   -where you would obstruct cyclists’ use of cycle facilities except when forced to do so by stationary traffic.
+   - near a school entrance
+   - anywhere you would prevent access for Emergency Services
+   - at or near a bus or tram stop or taxi rank
+   - on the approach to a level crossing/tramway crossing
+   - opposite or within 10 metres (32 feet) of a junction, except in an authorised parking space
+   - near the brow of a hill or hump bridge
+   - opposite a traffic island or (if this would cause an obstruction) another parked vehicle
+   - where you would force other traffic to enter a tram lane
+   - where the kerb has been lowered to help wheelchair users and powered mobility vehicles
+   - in front of an entrance to a property
+   - on a bend
+   - where you would obstruct cyclists' use of cycle facilities except when forced to do so by stationary traffic.

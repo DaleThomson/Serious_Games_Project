@@ -10,8 +10,8 @@ Rule 100:
 
 The driver MUST ensure that all children under 14 years of age in cars, vans and other goods vehicles wear seat
 belts or sit in an approved child restraint where required. If a child is under 1.35 metres (approx 4 feet 5 inches)
-tall, a baby seat, child seat, booster seat or booster cushion MUST be used suitable for the child’s weight and
-fitted to the manufacturer’s instructions.
+tall, a baby seat, child seat, booster seat or booster cushion MUST be used suitable for the child's weight and
+fitted to the manufacturer's instructions.
 Laws RTA 1988 sects 14 & 15, MV(WSB)R, MV(WSBCFS)R & MV(WSB)(A)R
 
 Rule 101:

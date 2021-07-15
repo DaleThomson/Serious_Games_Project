@@ -1,13 +1,13 @@
 Rule 122:
 
 Coasting. This term describes a vehicle travelling in neutral or with the clutch pressed down. It can reduce driver
-control because
+control because:
 
-   -engine braking is eliminated
-   -vehicle speed downhill will increase quickly
-   -increased use of the footbrake can reduce its effectiveness
-   -steering response will be affected, particularly on bends and corners
-   -it may be more difficult to select the appropriate gear when needed.
+   - engine braking is eliminated
+   - vehicle speed downhill will increase quickly
+   - increased use of the footbrake can reduce its effectiveness
+   - steering response will be affected, particularly on bends and corners
+   - it may be more difficult to select the appropriate gear when needed.
 
 Rule 123:
 

@@ -5,6 +5,6 @@
 3. Park with one wheel up the kerb.
 4. Park with two wheels up the kerb.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

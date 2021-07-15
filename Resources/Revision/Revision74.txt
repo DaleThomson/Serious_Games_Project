@@ -1,8 +1,8 @@
 Rule 166:
 
 DO NOT overtake if there is any doubt, or where you cannot see far enough ahead to be sure it is safe. For example,
-when you are approaching
+when you are approaching:
 
-   -a corner or bend
-   -a hump bridge
-   -the brow of a hill.
+   - a corner or bend
+   - a hump bridge
+   - the brow of a hill.

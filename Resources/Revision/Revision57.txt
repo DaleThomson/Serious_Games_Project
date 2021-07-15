@@ -2,11 +2,11 @@ Rule 132:
 
 Reflective road studs may be used with white lines.
 
-   -White studs mark the lanes or the middle of the road.
-   -Red studs mark the left edge of the road.
-   -Amber studs mark the central reservation of a dual carriageway or motorway.
-   -Green studs mark the edge of the main carriageway at lay-bys and slip roads.
-   -Green/yellow studs indicate temporary adjustments to lane layouts, e.g. where road works are taking place.
+   - White studs mark the lanes or the middle of the road.
+   - Red studs mark the left edge of the road.
+   - Amber studs mark the central reservation of a dual carriageway or motorway.
+   - Green studs mark the edge of the main carriageway at lay-bys and slip roads.
+   - Green/yellow studs indicate temporary adjustments to lane layouts, e.g. where road works are taking place.
 
 Rule 133:
 

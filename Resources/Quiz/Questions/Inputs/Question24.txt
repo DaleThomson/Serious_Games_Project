@@ -5,6 +5,6 @@
 3. Check your exhaust.
 4. Stop the vehicle and check your tyres.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

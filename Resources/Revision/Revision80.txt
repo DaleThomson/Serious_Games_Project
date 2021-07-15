@@ -1,11 +1,11 @@
 Rule 179:
 
-Well before you turn right you should
+Well before you turn right you should:
 
-    use your mirrors to make sure you know the position and movement of traffic behind you
-    give a right-turn signal
-    take up a position just left of the middle of the road or in the space marked for traffic turning right
-    leave room for other vehicles to pass on the left, if possible.
+   - use your mirrors to make sure you know the position and movement of traffic behind you
+   - give a right-turn signal
+   - take up a position just left of the middle of the road or in the space marked for traffic turning right
+   - leave room for other vehicles to pass on the left, if possible.
 
 Rule 180:
 
@@ -14,4 +14,4 @@ pedestrians and other road users. Check your mirrors and blind spot again to mak
 then make the turn. Do not cut the corner. Take great care when turning into a main road; you will need to watch for
 traffic in both directions and wait for a safe gap.
 
-Remember: Mirrors – Signal – Manoeuvre
+Remember: Mirrors - Signal - Manoeuvre

@@ -5,6 +5,6 @@
 3. Four years.
 4. Two years.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

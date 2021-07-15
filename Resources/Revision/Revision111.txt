@@ -1,11 +1,11 @@
 Rule 252:
 
-Parking on hills. If you park on a hill you should
+Parking on hills. If you park on a hill you should:
 
-   -park close to the kerb and apply the handbrake firmly
-   -select a forward gear and turn your steering wheel away from the kerb when facing uphill
-   -select reverse gear and turn your steering wheel towards the kerb when facing downhill
-   -use ‘park’ if your car has an automatic gearbox.
+   - park close to the kerb and apply the handbrake firmly
+   - select a forward gear and turn your steering wheel away from the kerb when facing uphill
+   - select reverse gear and turn your steering wheel towards the kerb when facing downhill
+   - use 'park' if your car has an automatic gearbox.
 
 Prohibited vehicles. Motorways MUST NOT be used by pedestrians, holders of provisional motorcycle or car licences,
 riders of motorcycles under 50 cc, cyclists, horse riders, certain slow-moving vehicles and those carrying oversized

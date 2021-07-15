@@ -5,6 +5,6 @@
 3. Pay all remaining fines, apply for a new licence, and resit your test at any time during the disqualification period.
 4. Resit all tests after the period of disqualification has concluded, applying for a duplicate driving license.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

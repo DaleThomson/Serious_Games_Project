@@ -14,10 +14,10 @@ unless signs indicate that your vehicle is permitted.
 
 Vehicles permitted to use designated lanes may or may not include cycles, buses, taxis, licensed private hire
 vehicles, motorcycles, heavy goods vehicles (HGVs) and high-occupancy vehicles (HOVs). Where HOV lanes are in
-operation, they MUST ONLY be used by
+operation, they MUST ONLY be used by:
 
-   -vehicles containing at least the minimum number of people indicated on the traffic signs
-   -any other vehicles, such as buses and motorcycles, as indicated on signs prior to the start of the lane,
-    irrespective of the number of occupants.
+   - vehicles containing at least the minimum number of people indicated on the traffic signs
+   - any other vehicles, such as buses and motorcycles, as indicated on signs prior to the start of the lane,
+     irrespective of the number of occupants.
 
 Laws RTRA sects 5 & 8, & RTA 1988, sect 36

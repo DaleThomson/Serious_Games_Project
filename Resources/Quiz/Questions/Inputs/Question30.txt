@@ -5,6 +5,6 @@
 *3. Further than necessary.
 4. For longer than the length of one car.
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

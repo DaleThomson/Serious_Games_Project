@@ -1,18 +1,18 @@
 Rule 265:
 
 The right-hand lane of a motorway with three or more lanes MUST NOT be used (except in prescribed circumstances) if
-you are driving
+you are driving:
 
-   -any vehicle drawing a trailer
-   -a goods vehicle with a maximum laden weight exceeding 3.5 tonnes but not exceeding 7.5 tonnes, which is required
-    to be fitted with a speed limiter
-   -a goods vehicle with a maximum laden weight exceeding 7.5 tonnes
-   -a passenger vehicle with a maximum laden weight exceeding 7.5 tonnes constructed or adapted to carry more than
-    eight seated passengers in addition to the driver
-   -a passenger vehicle with a maximum laden weight not exceeding 7.5 tonnes which is constructed or adapted to
-    carry more than eight seated passengers in addition to the driver, which is required to be fitted with a speed
-    limiter.
-    Laws MT(E&W)R reg 12, MT(E&W)AR (2004), MT(S)R reg 11 & MT(S)AR (2004)
+   - any vehicle drawing a trailer
+   - a goods vehicle with a maximum laden weight exceeding 3.5 tonnes but not exceeding 7.5 tonnes, which is required
+     to be fitted with a speed limiter
+   - a goods vehicle with a maximum laden weight exceeding 7.5 tonnes
+   - a passenger vehicle with a maximum laden weight exceeding 7.5 tonnes constructed or adapted to carry more than
+     eight seated passengers in addition to the driver
+   - a passenger vehicle with a maximum laden weight not exceeding 7.5 tonnes which is constructed or adapted to
+     carry more than eight seated passengers in addition to the driver, which is required to be fitted with a speed
+     limiter.
+     Laws MT(E&W)R reg 12, MT(E&W)AR (2004), MT(S)R reg 11 & MT(S)AR (2004)
 
 Rule 266:
 
