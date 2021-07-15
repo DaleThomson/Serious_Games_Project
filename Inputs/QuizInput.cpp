@@ -7,7 +7,7 @@ void QuizInput::print()
 	std::fstream file("../Resources/Quiz/Questions/Inputs/Question" + std::to_string(Q_num) + ".txt");
 	while (file >> std::noskipws >> check)
 	{
-		if (check != '*')
+		if (check != '*' && check != '}')
 		{
 			std::cout << check;
 		}
@@ -106,60 +106,76 @@ void QuizInput::questionHandler()
 	std::rename("../Resources/Quiz/QuizPopulateInSession.txt", "../Resources/Quiz/QuizPopulate.txt");
 }
 
-void QuizInput::handleInput(int input, AbstractQuestion** question)
+void QuizInput::answerHandler(int input)
 {
 	std::fstream file("../Resources/Quiz/Questions/Inputs/Question" + std::to_string(Q_num) + ".txt");
+
+	char inputChar = '0' + input;
+	if (Q_num != 0)
+	{
+		while (file >> std::noskipws >> check)
+		{
+			if (check == '*')
+			{
+				if (file.peek() == inputChar)
+				{
+					correct = true;
+					player->incrementScore();
+					system("CLS");
+					std::cout << "Correct\n\n";
+					system("PAUSE");
+					system("CLS");
+					break;
+				}
+			}
+		}
+		if (!correct)
+		{
+			system("CLS");
+			std::cout << "Incorrect\n\n";
+			system("PAUSE");
+			system("CLS");
+		}
+		correct = false;
+	}
+	questionHandler();
+	if (finish)
+	{
+		system("CLS");
+		std::cout << "You have finished the assessment.\n\n"
+			"Your score is: " << player->getScore();
+		std::cout << "/50\n\n";
+		if (player->getScore() < 43)
+		{
+			std::cout << "Unfortunately you have failed the assessment. We recommend "
+				<< "that you utilize the revision section of the program.\n\n";
+		}
+		if (player->getScore() >= 43)
+		{
+			std::cout << "Congratulations you have passed the test!\n\n";
+		}
+		system("PAUSE");
+		player->reset();
+		system("CLS");
+	}
+}
+
+void QuizInput::handleInput(int input, AbstractQuestion** question)
+{
 	AbstractQuestion* q = *question;
+
+	if (finish)
+	{
+		*question = new Menu(player);
+		delete q;
+	}
 	switch (input)
 	{
 	case 1:
 		system("CLS");
-		if (Q_num != 0)
-		{
-			while (file >> std::noskipws >> check)
-			{
-				if (check == '*')
-				{
-					if (file.peek() == '1')
-					{
-						correct = true;
-						player->incrementScore();
-						system("CLS");
-						std::cout << "Correct\n\n";
-						system("PAUSE");
-						system("CLS");
-						break;
-					}
-				}
-			}
-			if (!correct)
-			{
-				system("CLS");
-				std::cout << "Incorrect\n\n";
-				system("PAUSE");
-				system("CLS");
-			}
-			correct = false;
-		}
-		questionHandler();
+		answerHandler(input);
 		if (finish)
 		{
-			system("CLS");
-			std::cout << "You have finished the assessment.\n\n"
-				"Your score is: " << player->getScore();
-			std::cout << "/50\n\n";
-			if (player->getScore() < 43)
-			{
-				std::cout << "Unfortunately you have failed the assessment. We recommend "
-					<< "that you utilize the revision section of the program.\n\n";
-			}
-			if (player->getScore() >= 43)
-			{
-				std::cout << "Congratulations you have passed the test!\n\n";
-			}
-			system("PAUSE");
-			player->reset();
-			system("CLS");
 			*question = new Menu(player);
 			delete q;
 			break;
@@ -170,52 +186,9 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 		break;
 	case 2:
 		system("CLS");
-		if (Q_num != 0)
-		{
-			while (file >> std::noskipws >> check)
-			{
-				if (check == '*')
-				{
-					if (file.peek() == '2')
-					{
-						correct = true;
-						player->incrementScore();
-						system("CLS");
-						std::cout << "Correct\n\n";
-						system("PAUSE");
-						system("CLS");
-						break;
-					}
-				}
-			}
-			if (!correct)
-			{
-				system("CLS");
-				std::cout << "Incorrect\n\n";
-				system("PAUSE");
-				system("CLS");
-			}
-			correct = false;
-		}
-		questionHandler();
+		answerHandler(input);
 		if (finish)
 		{
-			system("CLS");
-			std::cout << "You have finished the assessment.\n\n"
-				"Your score is: " << player->getScore();
-			std::cout << "/50\n\n";
-			if (player->getScore() < 43)
-			{
-				std::cout << "Unfortunately you have failed the assessment. We recommend "
-					<< "that you utilize the revision section of the program.\n\n";
-			}
-			if (player->getScore() >= 43)
-			{
-				std::cout << "Congratulations you have passed the test!\n\n";
-			}
-			system("PAUSE");
-			player->reset();
-			system("CLS");
 			*question = new Menu(player);
 			delete q;
 			break;
@@ -226,52 +199,9 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 		break;
 	case 3:
 		system("CLS");
-		if (Q_num != 0)
-		{
-			while (file >> std::noskipws >> check)
-			{
-				if (check == '*')
-				{
-					if (file.peek() == '3')
-					{
-						correct = true;
-						player->incrementScore();
-						system("CLS");
-						std::cout << "Correct\n\n";
-						system("PAUSE");
-						system("CLS");
-						break;
-					}
-				}
-			}
-			if (!correct)
-			{
-				system("CLS");
-				std::cout << "Incorrect\n\n";
-				system("PAUSE");
-				system("CLS");
-			}
-			correct = false;
-		}
-		questionHandler();
+		answerHandler(input);
 		if (finish)
 		{
-			system("CLS");
-			std::cout << "You have finished the assessment.\n\n"
-				"Your score is: " << player->getScore();
-			std::cout << "/50\n\n";
-			if (player->getScore() < 43)
-			{
-				std::cout << "Unfortunately you have failed the assessment. We recommend "
-					<< "that you utilize the revision section of the program.\n\n";
-			}
-			if (player->getScore() >= 43)
-			{
-				std::cout << "Congratulations you have passed the test!\n\n";
-			}
-			system("PAUSE");
-			player->reset();
-			system("CLS");
 			*question = new Menu(player);
 			delete q;
 			break;
@@ -282,52 +212,9 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 		break;
 	case 4:
 		system("CLS");
-		if (Q_num != 0)
-		{
-			while (file >> std::noskipws >> check)
-			{
-				if (check == '*')
-				{
-					if (file.peek() == '4')
-					{
-						correct = true;
-						player->incrementScore();
-						system("CLS");
-						std::cout << "Correct\n\n";
-						system("PAUSE");
-						system("CLS");
-						break;
-					}
-				}
-			}
-			if (!correct)
-			{
-				system("CLS");
-				std::cout << "Incorrect\n\n";
-				system("PAUSE");
-				system("CLS");
-			}
-			correct = false;
-		}
-		questionHandler();
+		answerHandler(input);
 		if (finish)
 		{
-			system("CLS");
-			std::cout << "You have finished the assessment.\n\n"
-				"Your score is: " << player->getScore();
-			std::cout << "/50\n\n";
-			if (player->getScore() < 43)
-			{
-				std::cout << "Unfortunately you have failed the assessment. We recommend "
-					<< "that you utilize the revision section of the program.\n\n";
-			}
-			if (player->getScore() >= 43)
-			{
-				std::cout << "Congratulations you have passed the test!\n\n";
-			}
-			system("PAUSE");
-			player->reset();
-			system("CLS");
 			*question = new Menu(player);
 			delete q;
 			break;
