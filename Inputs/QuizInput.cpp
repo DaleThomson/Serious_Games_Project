@@ -5,9 +5,19 @@ void QuizInput::print()
 {
 	// All Questions and Answers Were Sourced From: https://toptests.co.uk/mock-theory-test/
 	std::fstream file("../Resources/Quiz/Questions/Inputs/Question" + std::to_string(Q_num) + ".txt");
+
+	if (!file.is_open())
+	{
+		system("CLS");
+		std::cout << "You Are Missing A Display File Please Re-Download The Software\n\n";
+		std::cout << "The Software Will Now Close\n\n";
+		system("PAUSE");
+		exit(0);
+	}
+
 	while (file >> std::noskipws >> check)
 	{
-		if (check != '*' && check != '}')
+		if (check != '*')
 		{
 			std::cout << check;
 		}
@@ -26,7 +36,29 @@ void QuizInput::questionHandler()
 	if (Q_num == 0)
 	{
 		std::fstream questionBackup("../Resources/Quiz/QuizPopulate-BACKUP.txt");
+		if (!questionBackup.is_open())
+		{
+			std::ofstream backupFix("../Resources/Quiz/QuizBackupPopulator.txt");
+			for (int i = 1; i <= 50; i++)
+			{
+				backupFix << i << std::endl;
+				if (i > 49)
+					backupFix << i;
+			}
+			questionBackup.close();
+			backupFix.close();
+			std::rename("../Resources/Quiz/QuizBackupPopulator.txt", "../Resources/Quiz/QuizPopulate-BACKUP.txt");
+			std::fstream questionBackup("../Resources/Quiz/QuizPopulate-BACKUP.txt");
+			system("CLS");
+			std::cout << "An Error Occured Generating The Question List Please Try Again...\n\n";
+			system("PAUSE");
+			system("CLS");
+			error = true;
+			return;
+		}
 		std::ofstream reloadFile("../Resources/Quiz/QuizBuffer.txt");
+
+
 		while (getline(questionBackup, line))
 		{
 			if (std::stoi(line) > 0)
@@ -169,7 +201,7 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 	case 1:
 		system("CLS");
 		answerHandler(input);
-		if (finish)
+		if (finish | error)
 		{
 			*question = new Menu(player);
 			delete q;
@@ -181,7 +213,7 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 	case 2:
 		system("CLS");
 		answerHandler(input);
-		if (finish)
+		if (finish | error)
 		{
 			*question = new Menu(player);
 			delete q;
@@ -193,7 +225,7 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 	case 3:
 		system("CLS");
 		answerHandler(input);
-		if (finish)
+		if (finish | error)
 		{
 			*question = new Menu(player);
 			delete q;
@@ -205,7 +237,7 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 	case 4:
 		system("CLS");
 		answerHandler(input);
-		if (finish)
+		if (finish | error)
 		{
 			*question = new Menu(player);
 			delete q;

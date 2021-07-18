@@ -10,6 +10,7 @@ private:
 	char check;
 	char i;
 	bool correct;
+	bool error;
 protected:
 	Player* player;
 public:
