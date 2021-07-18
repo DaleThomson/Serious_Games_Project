@@ -5,6 +5,6 @@
 3. Give way to oncoming traffic on your left.
 *4. Give way to oncoming traffic on your right.
 5. Return to Menu.
-9. Exit the Software.
+0. Exit the Software.
 
 Your Answer: 

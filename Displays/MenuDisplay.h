@@ -3,6 +3,6 @@
 class MenuDisplay : public AbstractDisplay
 {
 public:
+	// Print Method
 	void print();
 };
-

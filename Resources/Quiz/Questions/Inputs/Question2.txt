@@ -5,6 +5,6 @@
 3. With the car in the lowest gear possible.
 *4. With the car in the highest gear possible.
 5. Return to Menu.
-9. Exit the Software.
+0. Exit the Software.
 
 Your Answer: 

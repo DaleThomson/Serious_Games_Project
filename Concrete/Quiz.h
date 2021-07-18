@@ -7,9 +7,12 @@
 class Quiz : public AbstractQuestion
 {
 private:
+	// Int To Store Random Number To Be Passed Into Constructor
 	int Q_numPass;
+	// Int To Store Incremental Question Number To Be Passed Into Constructor
 	int Q_numDisplay;
 public:
+	// Constructor
 	Quiz(Player* player, int Q_num, int Q_num_display)
 	{
 		Q_numPass = Q_num;
@@ -20,7 +23,8 @@ public:
 
 	virtual ~Quiz() {
 	}
-
+	// Print Method
 	void print();
+	// Input Handling Method
 	void handleInput(int input, AbstractQuestion** question);
 };

@@ -7,8 +7,10 @@
 class Revision : public AbstractQuestion
 {
 private:
+	// Int To Pass Page Num Into Constructor
 	int pagePass;
 public:
+	// Constructor
 	Revision(Player* player, int page)
 	{
 		pagePass = page;
@@ -18,7 +20,8 @@ public:
 
 	virtual ~Revision() {
 	}
-
+	// Print Method
 	void print();
+	// Input Handler Method
 	void handleInput(int input, AbstractQuestion** question);
 };

@@ -3,8 +3,10 @@
 #include "Menu.h"
 void RevisionInput::print()
 {
+	// Open File
 	std::fstream file("../Resources/Revision/RevisionMenu.txt");
 
+	// If File Does Not Exist Inform The Player And Exit The Software
 	if (!file.is_open())
 	{
 		system("CLS");
@@ -13,10 +15,8 @@ void RevisionInput::print()
 		system("PAUSE");
 		exit(0);
 	}
-
+	// Print The File
 	std::cout << file.rdbuf();
-
-	file.close();
 }
 
 void RevisionInput::handleInput(int input, AbstractQuestion** question)
@@ -26,7 +26,9 @@ void RevisionInput::handleInput(int input, AbstractQuestion** question)
 	{
 	case 1:
 		system("CLS");
+		// Increment Page Num
 		page++;
+		// Page Num Is Greater Than Page Max Return Player To The Menu
 		if (page > pageMax)
 		{
 			std::cout << "This concludes the revision material. Returning you to the main menu\n\n";
@@ -36,12 +38,15 @@ void RevisionInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
+		// If Page Num Is Less Than Or Equal To Max Page Send The Player To The Next Page
 		*question = new Revision(player, page);
 		delete q;
 		break;
 	case 2:
 		system("CLS");
+		// Reduct The Page Number
 		page--;
+		// If Page Number Is Less Than 0 Return Player To The Menu
 		if (page < 0)
 		{
 			std::cout << "There is no page before this. Returning you to the main menu\n\n";
@@ -51,20 +56,16 @@ void RevisionInput::handleInput(int input, AbstractQuestion** question)
 			delete q;
 			break;
 		}
+		// If Page Num Is Greater Than 0 Send Player To The Previous Page
 		system("CLS");
 		*question = new Revision(player, page);
 		delete q;
 		break;
 	case 3:
+		// Return Player To Menu
 		system("CLS");
 		*question = new Menu(player);
 		delete q;
-		break;
-	case 9:
-		system("CLS");
-		std::cout << "Thank you for using our software.\n\n";
-		system("PAUSE");
-		exit(0);
 		break;
 	default:
 		system("CLS");

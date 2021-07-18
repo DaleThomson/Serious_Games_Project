@@ -3,8 +3,10 @@
 void QuizDisplay::print()
 {
 	// All Questions and Answers were sourced from: https://toptests.co.uk/mock-theory-test/
+	// Open File
 	std::ifstream file("../Resources/Quiz/Questions/Displays/Question" + std::to_string(Q_num) + ".txt");
 
+	// If File Does Not Exist Inform The User And Exit The Software
 	if (!file.is_open())
 	{
 		system("CLS");
@@ -13,7 +15,7 @@ void QuizDisplay::print()
 		system("PAUSE");
 		exit(0);
 	}
-
+	//If File Does Exist Print The Question Number and Print The File.
 	std::cout << "Question Number: " + std::to_string(Q_NumDisplay) << "/50\n\n";
 	std::cout << file.rdbuf();
 }

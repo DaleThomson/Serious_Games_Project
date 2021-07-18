@@ -3,8 +3,10 @@
 void RevisionDisplay::print()
 {
 	// All Text Relating to the Highway Code is Sourced From: https://www.highwaycodeuk.co.uk/
+	// Open File
 	std::ifstream file("../Resources/Revision/Revision" + std::to_string(page) + ".txt");
 
+	// If File Does Not Exist Inform The User And Exit The Software
 	if (!file.is_open())
 	{
 		system("CLS");
@@ -14,9 +16,6 @@ void RevisionDisplay::print()
 		exit(0);
 	}
 	
-	if (file.is_open())
-		std::cout << file.rdbuf();
-
-	file.clear();
-	file.seekg(0, file.beg);
+	// If File Exists Print It
+	std::cout << file.rdbuf();
 }

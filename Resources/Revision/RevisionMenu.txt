@@ -3,6 +3,6 @@
 1. Next Page
 2. Previous Page
 3. Return to Menu
-9. Exit Software
+0. Exit Software
 
 Please Enter Your Selection: 

@@ -7,8 +7,10 @@
 class Menu : public AbstractQuestion
 {
 public:
+	// Constructor
 	Menu(Player* player)
 	{
+		// Create Display And Input, Pass Player To Input
 		display = new MenuDisplay();
 		input = new MenuInput(player);
 	}

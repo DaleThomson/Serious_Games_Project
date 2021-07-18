@@ -5,6 +5,6 @@
 3. Carry on moving.
 4. Take names and details of all those involved.
 5. Return to Menu.
-9. Exit the Software.
+0. Exit the Software.
 
 Your Answer: 

@@ -5,6 +5,6 @@
 3. Get out of your car and stand behind it to show other drivers that it isn't moving.
 *4. Switch on your hazard lights and call your breakdown company.
 5. Return to Menu.
-9. Exit the Software.
+0. Exit the Software.
 
 Your Answer: 
