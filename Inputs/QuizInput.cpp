@@ -301,12 +301,5 @@ void QuizInput::handleInput(int input, AbstractQuestion** question)
 		*question = new Menu(player);
 		delete q;
 		break;
-	default:
-		system("CLS");
-		std::cout << "Please Select A Valid Option...\n\n";
-		std::cin.clear();
-		system("PAUSE");
-		system("CLS");
-		break;
 	}
 }

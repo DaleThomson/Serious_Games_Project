@@ -4,7 +4,8 @@
 2. Your fuel consumption to decrease.
 3. Less chance of an accident.
 *4. Your fuel consumption to increase.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

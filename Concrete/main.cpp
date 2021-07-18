@@ -30,16 +30,15 @@ int main(int argc, char** argv)
 				std::cin.get();
 			}
 			// If The 0 Is Entered The Code Jumps Out The Loop and Exits
-			if (input == 0)
+			if (input == 9)
 			{
 				exit(0);
 			}
 		}
 		// Clear Screen
 		system("CLS");
-		// Reprint Instance Display
+		// Reprint Question
 		question->print();
-		// A Message Prompting The User To Re-Enter Their Selection
 		std::cout << "\n\nPlease Enter One Of The Valid Options Listed Above: ";
 		std::cin.clear();
 		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');

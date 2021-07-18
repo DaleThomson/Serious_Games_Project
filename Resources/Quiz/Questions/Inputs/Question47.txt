@@ -4,7 +4,8 @@
 2. A fire station.
 3. An airfield.
 *4. A level crossing.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

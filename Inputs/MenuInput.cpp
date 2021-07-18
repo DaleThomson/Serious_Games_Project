@@ -26,24 +26,24 @@ void MenuInput::handleInput(int input, AbstractQuestion** question)
 	// Set A Pointer To Equal The Passed In Instance.
 	AbstractQuestion* q = *question;
 	// Handle User Input
-	switch (input)
-	{
-	case 1:
-		system("CLS");
-		// Create Quiz Instance and Pass Player In
-		// Set Quiz Number to 0
-		// Set Quiz Number Display to 0
-		*question = new Quiz(player, 0, 0);
-		// Delete The Pointer
-		delete q;
-		break;
-	case 2:
-		system("CLS");
-		// Create Revision Instance and Pass Player In
-		// Set Page Number to 0
-		*question = new Revision(player, 0);
-		// Delete Pointer
-		delete q;
-		break;
-	}
+		switch (input)
+		{
+		case 1:
+			system("CLS");
+			// Create Quiz Instance and Pass Player In
+			// Set Quiz Number to 0
+			// Set Quiz Number Display to 0
+			*question = new Quiz(player, 0, 0);
+			// Delete The Pointer
+			delete q;
+			break;
+		case 2:
+			system("CLS");
+			// Create Revision Instance and Pass Player In
+			// Set Page Number to 0
+			*question = new Revision(player, 0);
+			// Delete Pointer
+			delete q;
+			break;
+		}
 }

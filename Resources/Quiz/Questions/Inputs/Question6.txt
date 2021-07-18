@@ -4,7 +4,8 @@
 2. It will stop the pain.
 *3. It will help reduce the bleeding.
 4. It will be easier for the ambulance to see the person.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

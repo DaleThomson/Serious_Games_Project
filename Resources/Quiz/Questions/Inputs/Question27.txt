@@ -4,7 +4,8 @@
 *2. For overtaking.
 3. For high-speed cruising on the motorway.
 4. For low-speed curising on the motorway.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

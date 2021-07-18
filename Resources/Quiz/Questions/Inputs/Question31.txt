@@ -3,8 +3,9 @@
 1. Is blind.
 2. Is deaf.
 *3. Is blind and deaf.
-4. has epilepsy.
+4. Has epilepsy.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

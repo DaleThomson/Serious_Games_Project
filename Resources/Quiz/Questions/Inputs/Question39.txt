@@ -4,7 +4,8 @@
 2. Accelerate past the bus.
 3. Beep to notify the driver as you pass the bus.
 4. Brake suddenly behind the bus and wait for it to go.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

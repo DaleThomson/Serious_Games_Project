@@ -4,7 +4,8 @@
 2. Check only your rearview mirror.
 3. Assume it is and go anyway.
 4. Check only your side mirrors.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

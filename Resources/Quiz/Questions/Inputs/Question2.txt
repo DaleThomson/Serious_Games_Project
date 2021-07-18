@@ -4,7 +4,8 @@
 2. With your left foot resting on the brake at all times.
 3. With the car in the lowest gear possible.
 *4. With the car in the highest gear possible.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

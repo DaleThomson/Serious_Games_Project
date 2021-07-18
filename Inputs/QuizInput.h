@@ -30,5 +30,7 @@ public:
 	void answerHandler(int input);
 	// Input Handler Method
 	void handleInput(int input, AbstractQuestion** question);
+	// Input Checker
+	void inputChecker(int input);
 };
 

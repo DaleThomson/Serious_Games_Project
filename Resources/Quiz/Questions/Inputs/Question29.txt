@@ -4,7 +4,8 @@
 2. You need to overtake a slow-moving vehicle in front.
 3. No pedestrains are using the footpath.
 4. It is at a dip in the kerb.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

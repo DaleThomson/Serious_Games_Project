@@ -4,7 +4,8 @@
 2. In case the vehicle changes direction at short notice.
 *3. In case the vehicle stops abruptly.
 4. In case the vehicles fog lights startle you.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 

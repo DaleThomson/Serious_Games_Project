@@ -4,7 +4,8 @@
 2. Turn left at the next side road.
 *3. Pull over to the left.
 4. Brake immediately.
+
 5. Return to Menu.
-0. Exit the Software.
+9. Exit the Software.
 
 Your Answer: 
