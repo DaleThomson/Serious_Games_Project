@@ -16,6 +16,9 @@ void QuizDisplay::print()
 		exit(0);
 	}
 	//If File Does Exist Print The Question Number and Print The File.
-	std::cout << "Question Number: " + std::to_string(Q_NumDisplay) << "/50\n\n";
+	if (Q_num != 0)
+	{
+		std::cout << "Question Number: " + std::to_string(Q_NumDisplay) << "/50\n\n";
+	}
 	std::cout << file.rdbuf();
 }

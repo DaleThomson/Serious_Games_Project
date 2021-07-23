@@ -45,5 +45,10 @@ void MenuInput::handleInput(int input, AbstractQuestion** question)
 			// Delete Pointer
 			delete q;
 			break;
+		default:
+			system("CLS");
+			std::cout << "Please Enter A Valid Option....\n\n";
+			system("PAUSE");
+			system("CLS");
 		}
 }

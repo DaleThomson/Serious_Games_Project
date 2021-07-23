@@ -69,10 +69,8 @@ void RevisionInput::handleInput(int input, AbstractQuestion** question)
 		break;
 	default:
 		system("CLS");
-		std::cout << "Please Select A Valid Option...\n\n";
-		std::cin.clear();
+		std::cout << "Please Enter A Valid Option....\n\n";
 		system("PAUSE");
 		system("CLS");
-		break;
 	}
 }
